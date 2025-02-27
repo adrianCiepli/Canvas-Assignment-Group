@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Drawing Game</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/style.css">
+    <style type="text/css">
+    </style>
+    <script src="javascript/script.js"></script>
+</head>
+
+<body>
+    <h1 id="title">Draw By Clicking Anywhere in the Box</h1>
+    <canvas id="canvas" width="1500" height="600"></canvas>
+    <br>
+    <div id="inputcontainer">
+        <div id="shapeBlock">
+            <p class="label">Shape</p>
+            <select id="dropdown">
+                <option value="circle">Circle</option>
+                <option value="rectangle">Rectangle</option>
+                <option value="triangle">Triangle</option>
+            </select>
+        </div>
+
+        <div id="radiusBlock">
+            <p class="label">Radius</p>
+            <input id="radius" type="number" min="1" max="50">
+        </div>
+
+        <div id="widthBlock">
+            <p class="label">Width</p>
+            <input id="width" type="number" min="1" max="50">
+        </div>
+
+        <div id="heightBlock">
+            <p class="label">Height</p>
+            <input id="height" type="number" min="1" max="50">
+        </div>
+
+        <div id="colorBlock">
+            <p class="label">Color</p>
+            <input id="color" type="color">
+        </div>
+    </div>
+</body>
+
+</html>
