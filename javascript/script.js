@@ -121,8 +121,8 @@ window.addEventListener("load", function (event) {
             heightBlock.style.display = "block";
         } else {
             radiusBlock.style.display = "none";
-            widthBlock.style.display = "block";
-            heightBlock.style.display = "none";
+            widthBlock.style.display = "none";
+            heightBlock.style.display = "block";
         }
     }
 
