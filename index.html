@@ -1,4 +1,11 @@
+<!--
+Authors: Adrian Cieplicki, Abishan Bhavananthan
+Date: 2025/03/02
+Structure for the Canvas Drawing App
+-->
+
 <!DOCTYPE html>
+
 <html>
 
 <head>
@@ -6,13 +13,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
     <style type="text/css">
     </style>
     <script src="javascript/script.js"></script>
 </head>
 
 <body>
-    <h1 id="title">Draw By Clicking Anywhere in the Box</h1>
+    <h1 id="title">Draw By Clicking Anywhere in the Box!</h1>
     <canvas id="canvas" width="1500" height="600"></canvas>
     <br>
     <div id="inputcontainer">
@@ -27,22 +37,27 @@
 
         <div id="radiusBlock">
             <p class="label">Radius</p>
-            <input id="radius" type="number" min="1" max="50">
+            <input id="radius" type="number" min="1" max="200">
         </div>
 
         <div id="widthBlock">
             <p class="label">Width</p>
-            <input id="width" type="number" min="1" max="50">
+            <input id="width" type="number" min="1" max="200">
         </div>
 
         <div id="heightBlock">
             <p class="label">Height</p>
-            <input id="height" type="number" min="1" max="50">
+            <input id="height" type="number" min="1" max="200">
         </div>
 
         <div id="colorBlock">
             <p class="label">Color</p>
             <input id="color" type="color">
+        </div>
+
+        <div id="clearBlock">
+            <p class="label">Clear</p>
+            <input id="clear" type="button" value="Clear">
         </div>
 
         <div id="undoBlock">
